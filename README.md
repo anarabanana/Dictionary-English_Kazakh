@@ -1,24 +1,12 @@
-calc_examples
+Simple translation app using http://semes-olla.rhcloud.com/ resource
 =============
 
-Unix shell programming examples with a calculator functionality.
+Unix shell utility may translate words from English to Kazakh.
+Has localization to Kazakh-Russian(mix) languages.Text and Graphical User Interfaces, netwirked client-services architectures are implemented based on calc_examples project. 
+1) Run make in su mode 
+2) Run ./dictionary for TUI, ./dictionary_ui GUI
+3) Run  LC_ALL=ru_RU ./dictionary_ui for Kazakh-Russin(mix) localization
+4) Run in su mode  /etc/init.d/xinetd restart -> nc localhost 1235
+5) Run nc localhost 1235 
 
-Examples signed by tags:
 
-Example_1 -- simple Makefile.
-
-Example_2 -- simple calc with "expr" evaluation.
-
-Example_3 -- shell spec. symbols escaping and formating input for "expr".
-
-Example_4 -- Text UI.
-
-Example_5 -- GUI.
-
-Example_6 -- Network server.
-
-Example_7 -- UI for networked calc.
-
-Example_8 -- Localization. 
-
-Example_9 -- Russian L10N.

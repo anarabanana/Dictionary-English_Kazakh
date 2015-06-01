@@ -43,7 +43,7 @@ then
         PORT=$2
 fi
 
-if [ $# -ge 1 -o `basename $0` = 'ncalc_ui' ]
+if [ $# -ge 1 -o `basename $0` = 'ndictionary_ui' ]
 then
 	if [ $HOST -a $PORT ]
 	then
