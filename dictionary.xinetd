@@ -1,12 +1,12 @@
 # default: on
-# description: The calculator server
-service calc
+# description: The translation server
+service dictionary
 {
 	flags		= REUSE
 	socket_type	= stream        
 	wait		= no
 	user		= nobody
-	server		= /usr/local/bin/calc
+	server		= /usr/local/bin/dictionary
 	disable		= no
 }
 

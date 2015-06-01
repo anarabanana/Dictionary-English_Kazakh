@@ -16,18 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: calc_ui:24
-msgid "Enter expression:"
+#: dictionary_ui:24
+msgid "Enter the word number:"
 msgstr ""
 
-#: calc_ui:28
-msgid "Result:"
+#: dictionary_ui:28
+msgid "Translation:"
 msgstr ""
 
-#: calc_ui:28 calc_ui:31
+#: dictionary_ui:28 dictionary_ui:31
 msgid "Continue?"
 msgstr ""
 
-#: calc_ui:31
+#: dictionary_ui:31
 msgid "Error:"
 msgstr ""
