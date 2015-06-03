@@ -7,7 +7,7 @@ install: dictionary_ui-ru.mo
 	install dictionary_ui-ru.mo /usr/share/locale/ru/LC_MESSAGES/dictionary_ui.mo
 
 dictionary_ui.pot: dictionary_ui
-	xgettext -o calc_ui.pot -L Shell calc_ui
+	xgettext -o dictionary_ui.pot -L Shell dictionary_ui
 
 dictionary_ui-ru.mo: dictionary_ui-ru.po
 	msgfmt -o dictionary_ui-ru.mo dictionary_ui-ru.po
