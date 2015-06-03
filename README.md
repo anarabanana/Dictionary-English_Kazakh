@@ -1,5 +1,7 @@
-Simple translation app using http://semes-olla.rhcloud.com/ resource
+Dictionary Eng-Kaz
+
 =============
+Simple translation app using http://semes-olla.rhcloud.com/ resource.
 
 Unix shell utility may translate words from English to Kazakh.
 Has localization to Kazakh-Russian(mix) languages.Text and Graphical User Interfaces, netwirked client-services architectures are implemented based on calc_examples project. 
