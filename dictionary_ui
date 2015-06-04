@@ -44,6 +44,7 @@ then
 fi
 
 if [ $# -ge 1 -o `basename $0` = 'ndictionary_ui' ]
+#if [ $# -ge 1 -o `basename $0` = '' ]
 then
 	if [ $HOST -a $PORT ]
 	then
